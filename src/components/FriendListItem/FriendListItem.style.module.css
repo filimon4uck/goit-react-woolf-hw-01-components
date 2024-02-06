@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  column-gap: 16px;
+  background-color: rgb(243, 247, 250);
+  border: 2px solid rgb(227, 227, 238);
+  padding: 16px;
+  align-items: center;
+  border-radius: 8px;
+}
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.active {
+  background-color: green;
+}
+.unactive {
+  background-color: red;
+}
+.avatar {
+  width: 50px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+}
